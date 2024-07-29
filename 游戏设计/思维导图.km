@@ -1,0 +1,907 @@
+{
+    "root": {
+        "data": {
+            "id": "d2yl0yzi4c80",
+            "created": 1721906824821,
+            "text": "游戏设计"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d2yszh27fy80",
+                    "created": 1721929276318,
+                    "text": "游戏设计"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d2yt4i24psw0",
+                            "created": 1721929670311,
+                            "text": "放置类型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d2zbhlvrxcg0",
+                                    "created": 1721981477346,
+                                    "text": "关于没钱只好骑车去送外卖最后意外获得环法冠军这件事情"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d2zg30hdat40",
+                            "created": 1721994439214,
+                            "text": "事件触发"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d2zg75kl52w0",
+                                    "created": 1721994763749,
+                                    "text": "故事的开始"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zg7bomo5s0",
+                                            "created": 1721994777054,
+                                            "text": "初始化数据",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d2zgkqqkuvk0",
+                                                    "created": 1721995828558,
+                                                    "text": "150-200",
+                                                    "layout_right_offset": {
+                                                        "x": 2.9999998658895493,
+                                                        "y": 0
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d2zga7i689s0",
+                                                    "created": 1721995003049,
+                                                    "text": "身高"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d2zgkqqkuvk0",
+                                                            "created": 1721995828558,
+                                                            "text": "150-200",
+                                                            "layout_right_offset": {
+                                                                "x": 2.9999998658895493,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d2zgmflkmk80",
+                                                    "created": 1721995961039,
+                                                    "text": "根据 BMI 18-35 逆向推算"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d2zgmeiunag0",
+                                                    "created": 1721995958697,
+                                                    "text": "体重"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d2zgmflkmk80",
+                                                            "created": 1721995961039,
+                                                            "text": "根据 BMI 18-35 逆向推算"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d2zgqpvdp5s0",
+                                                    "created": 1721996296856,
+                                                    "text": "用来计时"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d2zgntqbio80",
+                                                    "created": 1721996070165,
+                                                    "text": "年龄"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d2zgqpvdp5s0",
+                                                            "created": 1721996296856,
+                                                            "text": "用来计时"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d309n1dt9go0",
+                                                    "created": 1722077820646,
+                                                    "text": "根据速度来计算送外卖的金钱 * 事件基础金额"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d2zgrnb3r4w0",
+                                                    "created": 1721996369641,
+                                                    "text": "金钱"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d309n1dt9go0",
+                                                            "created": 1722077820646,
+                                                            "text": "根据速度来计算送外卖的金钱 * 事件基础金额"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d309nl7nubc0",
+                                                    "created": 1722077863810,
+                                                    "text": "影响功率因素"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d3010uyybpk0",
+                                                    "created": 1722053513796,
+                                                    "text": "功率"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d309nl7nubc0",
+                                                            "created": 1722077863810,
+                                                            "text": "影响功率因素"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d30116iuie80",
+                                                    "created": 1722053538944,
+                                                    "text": "功率 * 影响因素 转换 速度"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d3010wx58mg0",
+                                                    "created": 1722053518040,
+                                                    "text": "速度"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d30116iuie80",
+                                                            "created": 1722053538944,
+                                                            "text": "功率 * 影响因素 转换 速度"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d309nq2eggw0",
+                                                    "created": 1722077874376,
+                                                    "text": "功率提高因素"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d300qtcwf4o0",
+                                                    "created": 1722052726644,
+                                                    "text": "天赋"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d309nq2eggw0",
+                                                            "created": 1722077874376,
+                                                            "text": "功率提高因素"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d30fcyezvrc0",
+                                            "created": 1722093957205,
+                                            "text": "随机故事开头"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zg32arg7c0",
+                                    "created": 1721994443168,
+                                    "text": "每个月的选择"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zg35xgpxc0",
+                                            "created": 1721994451071,
+                                            "text": "训练",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d2zg4kavkhs0",
+                                                    "created": 1721994560721,
+                                                    "text": "可以增加功率"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d309kw15jzs0",
+                                                    "created": 1722077652268,
+                                                    "text": "体重 -0.8 ~-1.5"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d2zg38m3ciw0",
+                                            "created": 1721994456914,
+                                            "text": "送外卖",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d2zg4auzsbk0",
+                                                    "created": 1721994540170,
+                                                    "text": "根据速度进行计算金额"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d309kw15jzs0",
+                                                    "created": 1722077652268,
+                                                    "text": "体重 -0.8 ~-1.5"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d2zg39x3zj40",
+                                            "created": 1721994459757,
+                                            "text": "参加环法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d2zg54k4bp40",
+                                                    "created": 1721994604816,
+                                                    "text": "需要有入场卷"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d2zjrsxj5540",
+                                                    "created": 1722004845211,
+                                                    "text": "有可能获得赞助"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d2zjs1d8h0w0",
+                                                            "created": 1722004863574,
+                                                            "text": "一定的金额"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d300w2ibzh40",
+                                                    "created": 1722053138384,
+                                                    "text": "获得冠军 游戏结束"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d300w7cfy0g0",
+                                                            "created": 1722053148912,
+                                                            "text": "工体比 7"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d2zjuvoaml40",
+                                            "created": 1722005086275,
+                                            "text": "训练和送外卖之后可以去消费",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d2zjwpfec5s0",
+                                                    "created": 1722005229405,
+                                                    "text": "购买自行车装备"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d2zjwr79lm00",
+                                                    "created": 1722005233266,
+                                                    "text": "购买食物"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d2zk0ny7nts0",
+                                                            "created": 1722005539645,
+                                                            "text": "体重 增加 2-5"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zk1r0nfyw0",
+                                    "created": 1722005624687,
+                                    "text": "事件概率"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d30fkvp3weo0",
+                                            "created": 1722094578200,
+                                            "text": "训练/送外卖/环法 有概率倾向"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d30fm3cz1eo0",
+                                            "created": 1722094673244,
+                                            "text": "买东西"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d30fmfxpyog0",
+                                                    "created": 1722094700620,
+                                                    "text": "先随机类别，然后升级装备"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d30fmjyidkg0",
+                                                    "created": 1722094709375,
+                                                    "text": "当随机到的类别已经是满级了，就会重新随机 自行车"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d3000leyqg00",
+                                                    "created": 1722050671886,
+                                                    "text": "每次固定 -200"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d3000t822yg0",
+                                                            "created": 1722050688883,
+                                                            "text": "先随机 装备类型"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d30012hgne00",
+                                                            "created": 1722050709043,
+                                                            "text": "一定会替换更好的装备"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d30023gf8j40",
+                                                            "created": 1722050789521,
+                                                            "text": "如果当前类型装备已经是最顶级 则重新随机"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d30fmb7atzc0",
+                                            "created": 1722094690315,
+                                            "text": "吃"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d30fmd5m9dc0",
+                                                    "created": 1722094694567,
+                                                    "text": "纯随机"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d2zg1adfga80",
+                            "created": 1721994304015,
+                            "text": "车子的装备",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d2zg1i2ikco0",
+                                    "created": 1721994320769,
+                                    "text": "安全帽"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zjxxn4bmo0",
+                                            "created": 1722005325650,
+                                            "text": "降低受伤概率"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zg1jiz0zs0",
+                                    "created": 1721994323941,
+                                    "text": "车灯"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zjxxn4bmo0",
+                                            "created": 1722005325650,
+                                            "text": "降低受伤概率"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zg1l5rkx40",
+                                    "created": 1721994327496,
+                                    "text": "手套"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zjxotphls0",
+                                            "created": 1722005306457,
+                                            "text": "降低受伤概率"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zg1tbnuo80",
+                                    "created": 1721994345267,
+                                    "text": "骑行服"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zjzeli7co0",
+                                            "created": 1722005440922,
+                                            "text": "提升训练效率"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zg1vov2nc0",
+                                    "created": 1721994350419,
+                                    "text": "功率计"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zjzeli7co0",
+                                            "created": 1722005440922,
+                                            "text": "提升训练效率"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zg2a32nog0",
+                                    "created": 1721994381753,
+                                    "text": "自行车"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zjzeli7co0",
+                                            "created": 1722005440922,
+                                            "text": "功率速度转换"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d3005s4meeg0",
+                                                    "created": 1722051078319,
+                                                    "text": "从 50% 开始 最高到 99.99%"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zg2h9pcyw0",
+                                    "created": 1721994397391,
+                                    "text": "码表"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d2zjzeli7co0",
+                                            "created": 1722005440922,
+                                            "text": "提升训练效率",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d3007cikobk0",
+                                                    "created": 1722051201063,
+                                                    "text": "10%"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d3003ntk7800",
+                                    "created": 1722050912215,
+                                    "text": "锁鞋"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d3003pvq97s0",
+                                            "created": 1722050916700,
+                                            "text": "功率速度转换"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d3006mlv6a80",
+                                                    "created": 1722051144666,
+                                                    "text": "从 10% 到 30%"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d2zjue0u9rs0",
+                            "created": 1722005047851,
+                            "text": "成就系统",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d2zk6sb663k0",
+                                    "created": 1722006019321,
+                                    "text": "历史成就"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d2zzw6p7vjk0",
+                                    "created": 1722050326398,
+                                    "text": "本次成就"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d30fodtk1ug0",
+                                            "created": 1722094852743,
+                                            "text": "先根据各种属性进行判断"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d30foioz1k80",
+                                            "created": 1722094863350,
+                                            "text": "然后根据一些事件和次数来设置成就"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d2zzwi9c6cg0",
+                                            "created": 1722050351559,
+                                            "text": "出生"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d2zzwjd2igw0",
+                                            "created": 1722050353962,
+                                            "text": "体重"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d2zzwk4jgdc0",
+                                            "created": 1722050355623,
+                                            "text": "马无夜草不肥"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d2zzxc7rgpk0",
+                                                    "created": 1722050416767,
+                                                    "text": "吃10次夜宵"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d2zzxhuc08o0",
+                                            "created": 1722050429016,
+                                            "text": "易损体质"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d300p6mpzmo0",
+                                                    "created": 1722052598808,
+                                                    "text": "受伤 10次"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d2zzxkusg4w0",
+                                            "created": 1722050435574,
+                                            "text": "高级技师"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d2zzyfxln340",
+                                                    "created": 1722050503224,
+                                                    "text": "修车次数 10"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d300pjjurk00",
+                                            "created": 1722052626933,
+                                            "text": "天才少年"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d300q9hc5740",
+                                                    "created": 1722052683377,
+                                                    "text": "波加查"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d300r63zx740",
+                                            "created": 1722052754404,
+                                            "text": "环法冠军"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d30ft5vd7ao0",
+                                            "created": 1722095227259,
+                                            "text": "肉蛋冲击波"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d30ft9x8ea80",
+                                                    "created": 1722095236079,
+                                                    "text": "体重和速度达到一定的程度"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d300wul0m3c0",
+                                            "created": 1722053199497,
+                                            "text": "千瓦大神"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d300wx7f5ko0",
+                                            "created": 1722053205205,
+                                            "text": "公路入门"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d300xiiunh40",
+                                                    "created": 1722053251609,
+                                                    "text": "30KM"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d300x31ntpc0",
+                                            "created": 1722053217917,
+                                            "text": "贴吧水平"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d300xkib7lc0",
+                                                    "created": 1722053255929,
+                                                    "text": "40KM"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d301hu2f03c0",
+                                            "created": 1722054844019,
+                                            "text": "高速公路"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d301hymp0ag0",
+                                                    "created": 1722054853953,
+                                                    "text": "速度达到90KM"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d30bax6cl9s0",
+                                            "created": 1722082513338,
+                                            "text": "外卖10次"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d30bb144p1k0",
+                                            "created": 1722082521910,
+                                            "text": "外卖20次"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d30bb3behkg0",
+                                            "created": 1722082526704,
+                                            "text": "外卖30次"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
