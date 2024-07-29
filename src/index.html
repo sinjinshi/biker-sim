@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于没钱只好骑车去送外卖最后意外获得环法冠军这件事情</title>
+  <style>
+    @font-face {
+      font-family: 'fusion-pixel';
+      src: url('./font/fusion-pixel-12px-monospaced-zh_hans.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family: fusion-pixel;
+    }
+
+    .main {
+      max-width: 680px;
+      height: max-content;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+    }
+
+    .start {
+      margin-top: 32px;
+    }
+
+    .start-btn {
+      margin-top: 120px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .start-btn:hover {
+      font-size: 30px;
+    }
+
+    .game {
+      margin-top: 32px;
+      flex-direction: column;
+      padding: 12px;
+      display: none;
+      height: calc(100vh - 120px);
+    }
+
+    .game-bar {
+      flex: none;
+      background-color: #f7f7fa;
+      padding: 12px;
+      border-radius: 12px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .game-bar-item {
+      padding: 4px 8px;
+    }
+    .game-log {
+      margin: 12px 0;
+      flex: 1;
+      height: 300px;
+      overflow: auto;
+    }
+    .medals {
+      
+      margin: 12px 0;
+      flex: 1;
+      height: 300px;
+      overflow: auto;
+    
+    }
+
+    .game-log-item {
+      margin-bottom: 6px;
+      padding: 12px;
+      border-radius: 10px;
+      background-color: #f7f7fa;
+    }
+    .game-control {
+      flex: none;
+    }
+    .game-btn {
+      margin: 6px;
+      cursor: pointer;
+      font-size: 24px;
+    }
+    .game-btn:hover {
+      font-size: 26px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div style="position: absolute; right: 14px;top: 14px">
+    <button onclick="controlAudio()">music 📢</button>
+    <audio id="audioPlayer" src="./assets/bgm.mp3" autoplay loop></audio>
+  </div>
+  <div class="main">
+    <div class="start">
+      <div style="font-size: 32px; text-align: center; margin-top: 50%; font-weight: 600;line-height: 48px;">
+        没钱送外卖的我<br>只好成为环法冠军 </div>
+      <div class="start-btn" onclick="play()">
+        [ 自行车启动 ]
+      </div>
+    </div>
+    <div class="game">
+      <div class="game-bar">
+        
+      </div>
+      <div class="game-log"></div>
+      <div class="game-control"></div>
+    </div>
+    <div class="medals">
+
+    </div>
+
+  </div>
+  <div class="footer" style="text-align: center;position: absolute; bottom: 12px;"> ❤️ bgm > freepd.com ❤️ font > Fusion Pixel Font
+  </div>
+</body>
+
+
+
+<script>
+  // music
+  let audio = document.getElementById('audioPlayer')
+  var audioStatus = false
+  function controlAudio() {
+    if (audioStatus) {
+      audioStatus = false
+      audio.pause()
+    } else {
+      audioStatus = true
+      audio.play()
+    }
+
+  }
+  function playAudio() {
+    audioStatus = true
+    audio.play()
+  }
+
+  function play() {
+
+    let startPage = document.querySelector('.start')
+    let gamePage = document.querySelector('.game')
+    let footer = document.querySelector('.footer')
+    startPage.style.display = 'none';
+    footer.style.display = 'none';
+    gamePage.style.display = 'flex';
+    playAudio()
+  }
+
+</script>
+
+</html>
